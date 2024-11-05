@@ -3,12 +3,10 @@ html {
 }
 
 .navbar{
- background-color: darkblue;   
+    background-image:linear-gradient(to top left, #161622, #535353);
 }
 
-footer{
-    background-color: darkblue;
-}
+
 .navText{
     font-size: 20px;
 }
@@ -28,11 +26,18 @@ footer{
    font-family: monospace;
 }
 
+.ProjectBox{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+
+}
 .ProjectBg{
     background-image:linear-gradient(to top right, #000000, #535353);
     min-height: 50vh;
     margin:0;
     font-family: monospace;
+    border-radius: 20px;
 }
 
 .AboutMe{
@@ -44,6 +49,9 @@ footer{
     justify-content: center;
     align-items: center;
     font-family: monospace;
+}
+.AboutMe p{
+    width: 50%;
 }
 
 
@@ -64,3 +72,9 @@ footer{
 .col-sm-3{
  text-align: center;
 }
+
+.projectPageBg{
+    background-image:
+    linear-gradient(to top right, #000000, #1013ad);
+}
+
